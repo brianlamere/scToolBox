@@ -1,0 +1,2 @@
+exportPattern("^[^\\.]")     # export everything not starting with a dot
+import(Seurat, SeuratObject, Signac, harmony, ggplot2, dplyr, data.table)

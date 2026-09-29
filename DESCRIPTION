@@ -1,0 +1,18 @@
+Package: scToolBox
+Version: 0.1.0
+Title: Brian's Seurat Single Cell Toolbox
+Description: Assorted helper functions for using Seurat, since many of them are
+    reused over and over.
+Author: Brian LaMere
+Maintainer: Brian LaMere <nospam@example.com>
+License: BSD_3_clause + file LICENSE
+Depends:
+    R (>= 4.0.0),
+    Seurat (>= 5.0.0),
+    SeuratObject (>= 5.0.0),
+    Signac,
+    harmony
+Imports:
+    ggplot2,
+    dplyr,
+    data.table
